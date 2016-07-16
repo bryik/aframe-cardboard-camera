@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Cardboard Camera Boilerplate</title>
+    <meta name="description" content="Cardboard Camera Boilerplate">
+    <script src="../lib/aframe.min.js"></script>
+    <script src="../lib/aframe-stereo-component.min.js"></script>
+  </head>
+  <body>
+    <a-scene>
+      <!-- Paths to left and right images set here -->
+      <a-assets>
+        <img id="left" src="../assets/library/library-left.png">
+        <img id="right" src="../assets/library/library-right.png">
+      </a-assets>
+
+      <!-- Camera -->
+      <a-entity camera look-controls position="0 0 0" stereocam="eye:left;"></a-entity>
+
+      <!-- Sky sphere -->
+      <a-sky id="sky1" radius="5000" src="#left" stereo="eye:left"></a-sky>
+      <a-sky id="sky2" radius="5000" src="#right" stereo="eye:right"></a-sky>
+
+    </a-scene>
+  </body>
+</html>

@@ -1,0 +1,8 @@
+
+GPano:CroppedAreaLeftPixels	0
+GPano:CroppedAreaTopPixels	1570
+GPano:CroppedAreaImageWidthPixels	8602
+GPano:CroppedAreaImageHeightPixels	1642
+GPano:FullPanoWidthPixels	8602
+GPano:FullPanoHeightPixels	4301
+GPano:InitialViewHeadingDegrees	180
