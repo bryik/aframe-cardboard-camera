@@ -2,6 +2,12 @@
 
 Demonstrates how to display Cardboard Camera photos with A-Frame.
 
+## An Easier Way?
+
+**Updated:** August 22nd, 2016.
+
+Rather than use this repository as a boilerplate to help deploy your Cardboard Camera images to GitHub Pages, it may be easier to upload to Imgur and CodePen. First convert your [vr.jpg to over-under equirectangular](https://storage.googleapis.com/cardboard-camera-converter/index.html), then follow the step-by-step instructions available [here](http://bl.ocks.org/bryik/4bf77096d3af66b11739caaf01393837). Though the instructions use an NVIDIA Ansel image, the process should be the same for Cardboard Camera.
+
 ## Use as a Boilerplate
 
 If you want to display your own Cardboard Camera photos, feel free to fork or download this repo and replace the library images with your own.
@@ -14,7 +20,7 @@ Instructions:
 
 3) Split the image obtained in step (2) using a tool like ImageMagick. This command works:
 
-```
+```bash
     magick convert <IMAGE.png> -crop 1x2@ +repage +adjoin pano_%d.png
 ```
 
