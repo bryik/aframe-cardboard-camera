@@ -6,7 +6,7 @@ Demonstrates how to display Cardboard Camera photos with A-Frame.
 
 **Updated:** August 22nd, 2016.
 
-Rather than use this repository as a boilerplate to help deploy your Cardboard Camera images to GitHub Pages, it may be easier to upload to Imgur and CodePen. First convert your [vr.jpg to over-under equirectangular](https://storage.googleapis.com/cardboard-camera-converter/index.html), then follow the step-by-step instructions available [here](http://bl.ocks.org/bryik/4bf77096d3af66b11739caaf01393837). Though the instructions use an NVIDIA Ansel image, the process should be the same for Cardboard Camera.
+Rather than use this repository as a boilerplate to deploy your Cardboard Camera images to GitHub Pages, it may be easier to upload to Imgur and CodePen. Step-by-step instructions are available [here](http://bl.ocks.org/bryik/68b4044557f25bd9c578540fc4969b65).
 
 ## Use as a Boilerplate
 
