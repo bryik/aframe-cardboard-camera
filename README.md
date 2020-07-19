@@ -1,4 +1,4 @@
-**Deprecated** The examples in this repo may still be useful, but if you're just interested in viewing a Cardboard Camera photo then check out [stereo-panorama-viewer](https://github.com/bryik/stereo-panorama-viewer). All you need to do is [convert](https://storage.googleapis.com/cardboard-camera-converter/index.html) your Cardboard Camera photo and then drag-and-drop into the viewer.
+**Deprecated**. The examples in this repo may still be useful, but if you're just interested in viewing a Cardboard Camera photo then check out [stereo-panorama-viewer](https://github.com/bryik/stereo-panorama-viewer). All you need to do is [convert](https://storage.googleapis.com/cardboard-camera-converter/index.html) your Cardboard Camera photo and then drag-and-drop into the viewer.
 
 <hr>
 
